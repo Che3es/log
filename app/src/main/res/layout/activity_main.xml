@@ -22,7 +22,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
@@ -34,6 +34,7 @@
         app:layout_constraintTop_toTopOf="@+id/sign_up" />
 
     <ImageView
+        android:id="@+id/Exit"
         android:layout_width="32dp"
         android:layout_height="32dp"
         android:layout_marginStart="16dp"
@@ -98,13 +99,14 @@
         android:text="I would like to receive your newsletter and other \n promotional information."
         android:layout_marginHorizontal="30sp"
         android:layout_marginTop="24dp"
-        android:textSize="16sp"
+        android:textSize="20sp"
         android:textColor="@color/gray3"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@id/password" />
 
     <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_sign"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
